@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creat Account</title>
+</head>
+<body>
+    <h1>Create account form</h1>
+
+    <form>
+    <fieldset>
+       <legend>personal information</legend>
+       <ul>
+        <li>
+            <label for="fullName">full name:</label>
+            <input type="text" name="name" id="fullName" placeholder="Surname first" required>
+        </li>
+        <li>
+            <label for="DOB">Date of Birth:</label>
+            <input type="date" name="Date" id="DOB" required>
+        </li>
+        <li>
+            <label for="address">Home Address:</label><br>
+            <textarea name="address" id="address" cols="30" rows="2" maxlength="30"></textarea>
+        </li>
+        <li>
+            <label for="soo">state of origin</label> <br>
+            <select>
+                <optgroup label="South South">
+                    
+                    <option value="Ak">Akwa ibom</option>
+                    <option value="By">Bayelsa</option>
+                    <option value="Cr">Cross river</option>
+                    <option value="Dl">Delta</option>
+                    <option value="ed">Edo</option>
+                    <option value="Rr">Rivers</option>
+                </optgroup>
+                <optgroup label="North centre">
+                    
+                    <option value="ni">Niger</option>
+                    <option value="abj">Abuja</option>
+                    <option value="bn">Benue</option>
+                    <option value="kg">Kogi</option>
+                    <option value="pi">plateau</option>
+                    <option value="Nn">Nasarawa</option>
+                    <option value="kw">Kwara</option>
+                </optgroup>
+                <optgroup label=" South east">
+                    <option value="an">Anambra</option>
+                    <option value="ab">Abia</option>
+                    <option value="Eb">Ebonyi</option>
+                    <option value="Ee">Enugu</option>
+                    <option value="Im">Imo</option>
+                </optgroup>
+                <optgroup label=" South west">
+                    <option value="Ek">Ekiti</option>
+                    <option value="lag">Lagos</option>
+                    <option value="Og">Ogun</option>
+                    <option value="On">Ondo</option>
+                    <option value="Os" selected>Osun</option>
+                    <option value="Oy">Oyo</option>
+
+                </optgroup>
+                <optgroup label="North East">
+                    <option value="Ad">Adamawa</option>
+                    <option value="Ba">Bauchi</option>
+                    <option value="Bo">Borno</option>
+                    <option value="Gb">Gombe</option>
+                    <option value="Ta">Taraba</option>
+                    <option value="Yb">Yobe</option>
+                </optgroup>
+                <optgroup label="North west">
+                    <option value="kd">Kaduna</option>
+                    <option value="kn">Kano</option>
+                    <option value="Kt">katsina</option>
+                    <option value="Ji">jigawa</option>
+                    <option value="Sk">Sokoto</option>
+                    <option value="Zm">Zamfara</option>
+                    <option value="Kb">Kebbi</option>
+                </optgroup>
+            </select>
+        </li>
+        <li>
+            <h3>Marital Status</h3>
+
+            <input type="radio" name="Status" id="single">
+            <label for="single">single</label>
+
+            <input type="radio" name="Status" id="married" checked>
+            <label for="married">married</label>
+
+            <input type="radio" name="Status" id="divorced">
+            <label for="divorced">divorced</label>
+        </li>
+        <li>
+            <h3>Religion</h3>
+
+            <label for="Islam">religion</label>
+            <input type="radio" name="Status" id="Islam">
+
+            <label for="Christian">religion</label>
+            <input type="radio" name="Status" id="Christian">
+        </li>
+        <li>
+            <h3>Gender</h3>
+            
+            <label for="Male">Male</label>
+            <input type="checkbox" name="Status" id="Male">
+
+            <label for="Female">Female</label>
+            <input type="checkbox" name="Status" id="Female">
+
+            <label for="Transgender">Trans</label>
+            <input type="checkbox" name="Status" id="Transgender">
+
+        </li> <br>
+        <li>
+            <label for="Email">Email:</label>
+            <input type="email" name="email" id="Email" placeholder="abcde@gmail.com"><br>
+        </li>
+        <li>
+            <label for="Telephone">Tel:</label>
+            <input type="tel" name="tel" id="Telephone" placeholder="+234">
+        </li>
+        <li>
+            <h3>Means of Identification</h3>
+            <label for="bvn">BVN</label>
+            <input type="file" name="bvn" id="bvn">
+
+            <label for="NIN">National Identity</label>
+            <input type="file" name="NIN" id="NIN">
+
+            <label for="driverslicense">Driver's license</label>
+            <input type="file" name="Drivers license" id="driverslicense">
+        </li>
+       </ul>
+       
+     
+     <label for="input">input</label>
+     <input type="text">
+    </fieldset>
+    </form>
+
+    
+</body>
+</html>
