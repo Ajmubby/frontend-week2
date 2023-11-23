@@ -6,11 +6,11 @@
     <title>Creat Account</title>
 </head>
 <body>
-    <h1>Create account form</h1>
+    <h1>Create Account Form</h1>
 
     <form>
     <fieldset>
-       <legend>personal information</legend>
+       <legend>Personal information</legend>
        <ul>
         <li>
             <label for="fullName">full name:</label>
@@ -22,10 +22,10 @@
         </li>
         <li>
             <label for="address">Home Address:</label><br>
-            <textarea name="address" id="address" cols="30" rows="2" maxlength="30"></textarea>
+            <textarea name="address" id="address" cols="30" rows="2" maxlength="30" required></textarea>
         </li>
         <li>
-            <label for="soo">state of origin</label> <br>
+            <label for="soo">State of origin:</label> <br>
             <select>
                 <optgroup label="South South">
                     
@@ -106,13 +106,11 @@
             <h3>Gender</h3>
             
             <label for="Male">Male</label>
-            <input type="checkbox" name="Status" id="Male">
+            <input type="radio" name="Status" id="Male">
 
             <label for="Female">Female</label>
-            <input type="checkbox" name="Status" id="Female">
+            <input type="radio" name="Status" id="Female">
 
-            <label for="Transgender">Trans</label>
-            <input type="checkbox" name="Status" id="Transgender">
 
         </li> <br>
         <li>
@@ -134,7 +132,7 @@
             <input type="radio" name="id" id="votersCard">
             <label for="votersCard">divorced</label>
 
-            <input type="file" name="file" id="file">
+            <input type="file" name="file" id="file" img="png">
         </li>
        </ul>
        <input type="submit">
